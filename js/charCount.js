@@ -47,5 +47,5 @@ function sorting(letters_dict) {
     return second_sort
 }
 
-// charCount("aacccbbbddddd")
+
 module.exports = {charCount}
