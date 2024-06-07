@@ -28,7 +28,7 @@ function counting_letters(str) {
 
 
 function sorting(letters_dict) {
-    // array [letter, occurrences]
+    // array = [letter, occurrences]
     let letters_arr = Object.keys(letters_dict).map(function(key) {
         return [key, letters_dict[key]]
     })
